@@ -49,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
-// #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
+#   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
 // #   define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
 // #   define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
 // #   define RGB_MATRIX_FRAMEBUFFER_EFFECTS
@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // // enabled only of RGB_MATRIX_KEYPRESSES or RGB_MATRIX_KEYRELEASES is defined
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE
-// #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_WIDE
+#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_WIDE
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_CROSS
 // #    define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTICROSS
